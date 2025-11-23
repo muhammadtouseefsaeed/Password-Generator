@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator — Touseef Malik</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <img class="profile" src="https://i.postimg.cc/Kzrm2mJy/558094692-787841107555093-6027457938418604754-n.jpg" alt="Touseef Malik">
+    <h1>Password Generator</h1>
+    <p class="name">By <strong>Touseef Malik</strong></p>
+
+    <div class="password-box">
+      <input type="text" id="password" readonly placeholder="Your password will appear here">
+      <button id="copy">Copy</button>
+    </div>
+
+    <div class="controls">
+      <label>Password Length: <span id="lengthValue">12</span></label>
+      <input type="range" id="length" min="6" max="20" value="12">
+      <button id="generate">Generate Password</button>
+    </div>
+
+    <footer>Designed & Powered by <strong>Touseef Malik</strong></footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
