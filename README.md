@@ -13,11 +13,8 @@ Copy password to clipboard easily
 Simple, clean, and responsive UI
 
 🔹 Technologies Used
-
 HTML
-
 CSS
-
 JavaScript
 
 🔹 How to Use
